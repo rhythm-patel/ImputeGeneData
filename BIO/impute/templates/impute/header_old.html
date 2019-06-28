@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+			<title>Impute Gene Data</title>
+	</head>
+
+	<body>
+
+		<h2>Impute Gene Data</h2>
+		<form method = "post" enctype="multipart/form-data">
+			{% csrf_token %}
+			<input type="file" name="document">
+			<button type="submit">Upload file</button>
+
+		</form>
+		<a href='run'>Run</a>
+
+	</body>
+</html>
