@@ -90,7 +90,7 @@ def dapl(request):
 
 
 
-	return render(request, 'impute/nmc.html', {'oppath':oppath})
+	return render(request, 'impute/dapl.html', {'oppath':oppath})
 
 # def index(request):
 # 	context={}
